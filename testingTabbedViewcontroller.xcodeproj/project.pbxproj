@@ -20,8 +20,8 @@
 		C39F6CDB1EC4D51B00E3D208 /* VoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39F6CD91EC4D51B00E3D208 /* VoteViewController.xib */; };
 		C39F6CDE1EC4D52C00E3D208 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F6CDC1EC4D52C00E3D208 /* SearchViewController.swift */; };
 		C39F6CDF1EC4D52C00E3D208 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39F6CDD1EC4D52C00E3D208 /* SearchViewController.xib */; };
-		C39F6CE21EC4D53900E3D208 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F6CE01EC4D53900E3D208 /* AccountViewController.swift */; };
-		C39F6CE31EC4D53900E3D208 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39F6CE11EC4D53900E3D208 /* AccountViewController.xib */; };
+		C39F6CE61EC4E6E700E3D208 /* ArtistAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F6CE41EC4E6E700E3D208 /* ArtistAccountViewController.swift */; };
+		C39F6CE71EC4E6E700E3D208 /* ArtistAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39F6CE51EC4E6E700E3D208 /* ArtistAccountViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +40,8 @@
 		C39F6CD91EC4D51B00E3D208 /* VoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoteViewController.xib; sourceTree = "<group>"; };
 		C39F6CDC1EC4D52C00E3D208 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C39F6CDD1EC4D52C00E3D208 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
-		C39F6CE01EC4D53900E3D208 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
-		C39F6CE11EC4D53900E3D208 /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		C39F6CE41EC4E6E700E3D208 /* ArtistAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArtistAccountViewController.swift; path = ../ArtistAccountViewController.swift; sourceTree = "<group>"; };
+		C39F6CE51EC4E6E700E3D208 /* ArtistAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ArtistAccountViewController.xib; path = ../ArtistAccountViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 				C39F6CD91EC4D51B00E3D208 /* VoteViewController.xib */,
 				C39F6CDC1EC4D52C00E3D208 /* SearchViewController.swift */,
 				C39F6CDD1EC4D52C00E3D208 /* SearchViewController.xib */,
-				C39F6CE01EC4D53900E3D208 /* AccountViewController.swift */,
-				C39F6CE11EC4D53900E3D208 /* AccountViewController.xib */,
+				C39F6CE41EC4E6E700E3D208 /* ArtistAccountViewController.swift */,
+				C39F6CE51EC4E6E700E3D208 /* ArtistAccountViewController.xib */,
 				C39F6CC11EC4D1E500E3D208 /* Assets.xcassets */,
 				C39F6CC31EC4D1E500E3D208 /* LaunchScreen.storyboard */,
 				C39F6CC61EC4D1E500E3D208 /* Info.plist */,
@@ -157,10 +157,10 @@
 				C39F6CC51EC4D1E500E3D208 /* LaunchScreen.storyboard in Resources */,
 				C39F6CC21EC4D1E500E3D208 /* Assets.xcassets in Resources */,
 				C39F6CCF1EC4D32A00E3D208 /* TabViewController.xib in Resources */,
+				C39F6CE71EC4E6E700E3D208 /* ArtistAccountViewController.xib in Resources */,
 				C39F6CD31EC4D4D500E3D208 /* HomeViewController.xib in Resources */,
 				C39F6CDB1EC4D51B00E3D208 /* VoteViewController.xib in Resources */,
 				C39F6CD71EC4D50600E3D208 /* ShopViewController.xib in Resources */,
-				C39F6CE31EC4D53900E3D208 /* AccountViewController.xib in Resources */,
 				C39F6CDF1EC4D52C00E3D208 /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,11 +174,11 @@
 			files = (
 				C39F6CDE1EC4D52C00E3D208 /* SearchViewController.swift in Sources */,
 				C39F6CD61EC4D50600E3D208 /* ShopViewController.swift in Sources */,
-				C39F6CE21EC4D53900E3D208 /* AccountViewController.swift in Sources */,
 				C39F6CCE1EC4D32A00E3D208 /* TabViewController.swift in Sources */,
 				C39F6CDA1EC4D51B00E3D208 /* VoteViewController.swift in Sources */,
 				C39F6CBB1EC4D1E500E3D208 /* AppDelegate.swift in Sources */,
 				C39F6CD21EC4D4D500E3D208 /* HomeViewController.swift in Sources */,
+				C39F6CE61EC4E6E700E3D208 /* ArtistAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +336,7 @@
 				C39F6CCB1EC4D1E500E3D208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

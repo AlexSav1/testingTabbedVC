@@ -1,5 +1,5 @@
 //
-//  AccountViewController.swift
+//  ArtistAccountViewController.swift
 //  testingTabbedViewcontroller
 //
 //  Created by Juliana Strawn on 5/11/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AccountViewController: UIViewController {
+class ArtistAccountViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

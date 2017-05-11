@@ -46,7 +46,7 @@ class TabViewController: UITabBarController, UITabBarControllerDelegate {
         
         
         // Create Account tab
-        let tabFive = AccountViewController()
+        let tabFive = ArtistAccountViewController()
         let tabFiveBarItem = UITabBarItem(title: "Account", image:#imageLiteral(resourceName: "photo-camera"), selectedImage: #imageLiteral(resourceName: "photo-camera"))
         tabFive.tabBarItem = tabFiveBarItem
         
